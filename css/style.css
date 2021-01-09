@@ -163,9 +163,13 @@ ul.header-menu-list li {
     fill-opacity: 0.4;
 }
 
-/* .slider-button-left-arrow {
-    translate: 100%;
-} */
+.slider-button-left {
+    transform: translateX(-300px);
+}
+
+.slider-button-right {
+    transform: translateX(300px);
+}
 
 .background-slider {
     display: flex;
